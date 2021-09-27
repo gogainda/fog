@@ -20,7 +20,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        ruby-version: [ '2.7' ]
+        ruby-version: [ truffleruby-head ]
 
     steps:
     - uses: actions/checkout@v2.3.4
